@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+html,body {
+  scroll-behavior: smooth;
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/1200x/93/37/fb/9337fb9c9248b93312ef3617ff18b4e8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.intro,.intro2 span {
+  color: rgb(145, 105, 96);
+}
+.intro{
+  text-align: center;
+  margin-top: 30px;
+  font-size: larger;
+  color: rgb(185, 64, 51);
+}
+.intro h2{
+  margin-top: 50px;
+
+}
+.massage{
+  
+  background-color: antiquewhite;
+  padding: 40px;
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(185, 64, 51);
+}
+.vidio11 {
+  text-align: center;
+  
+}
+video{
+  
+   border-radius: 20px;
+  box-shadow:9px 10px 14px rgb(154, 62, 52) ;
+}
+.text{
+  text-align: center;
+  padding: 40px;
+  color: rgb(185, 64, 51);
+}
+
+.vidio22{
+  
+  text-align: center;
+  margin-bottom: 50px;
+}
+.intro2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: larger;
+  color: rgb(96, 33, 28);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* لضمان أداء سلس على الهواتف */
+    }
+
+    .intro {
+        font-size: 1.1rem; /* تصغير حجم الخط ليلائم الموبايل */
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .intro h2 {
+        font-size: 1.4rem;
+        margin-top: 25px;
+    }
+}
